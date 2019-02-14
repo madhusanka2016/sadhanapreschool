@@ -22,7 +22,7 @@ echo '<html>';
              <div class="col-12">
                  <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
                      
-                     <h3>We are the Westgate College of Techonogy</h3>
+                     <h3>Sadhana Pre School</h3>
                  </div>
              </div>
          </div>
@@ -53,7 +53,7 @@ echo '<html>';
                 <div class="col-12">
                     <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
                         
-                        <h3>Major Staff of Westgate College of Technologies</h3>
+                        <h3>Staff of Sadhana Pre School</h3>
                     </div>
                 </div>
             </div>
