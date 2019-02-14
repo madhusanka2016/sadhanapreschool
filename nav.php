@@ -48,16 +48,16 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="index.php">Home</a></li>
-                                    <!-- <li><a href="#">Pages</a>
+                                     <li><a href="#">About </a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="course.html">Course</a></li>
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
+                                            <li><a href="index.html">Vision</a></li>
+                                            <li><a href="about-us.html">Mission</a></li>
+                                            <li><a href="course.html">Our History</a></li>
+                                            <li><a href="blog.html">Message From Principle</a></li>
+                                            <li><a href="blog.html"></a></li>
+                                           
                                         </ul>
-                                    </li> -->
+                                    </li> 
                                     <!-- <li><a href="#">Mega Menu</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">

@@ -9,8 +9,8 @@
                  <div class="row h-100 align-items-center">
                      <div class="col-12">
                          <div class="hero-slides-content">
-                             <h4 data-animation="fadeInUp" data-delay="200ms" style="text-shadow: 2px 2px 10px #000000;">Path to the Future</h4>
-                             <h2 data-animation="fadeInUp" data-delay="400ms" style="text-shadow: 5px 5px 10px #000000;">Welcome to <br>Westgate College of Technology</h2>
+                             <h4 data-animation="fadeInUp" data-delay="200ms" style="text-shadow: 2px 2px 10px #000000;">Explore the Kids World</h4>
+                             <h2 data-animation="fadeInUp" data-delay="400ms" style="text-shadow: 5px 5px 10px #000000;">Welcome to <br>Sadhana Pre School</h2>
                              <!--<a href="#" class="btn academy-btn" data-animation="fadeInUp" data-delay="700ms">Read More</a> -->
                          </div>
                      </div>
