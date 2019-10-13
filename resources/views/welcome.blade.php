@@ -71,6 +71,33 @@
 		</div>	
 	</section>
 	<!-- End feature Area -->
+	<!-- Start search-course Area -->
+	<section class="search-course-area relative">
+		<div class="overlay overlay-bg"></div>
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+				<div class="col-lg-8 col-md-8 search-course-left">
+					<h1 class="text-white">
+						Welcome to <br>
+						Sadhana Pre School !!!
+					</h1>
+					
+					<div class="row details-content">
+						<div class="col single-detials">
+							
+							<a href="#"><h4>When television was young, there was a hugely popular show based on the still popula</h4></a>		
+												
+						</div>
+														
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 search-course-right section-gap">
+					
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!-- End search-course Area -->
 			
 	<!-- Start popular-course Area -->
 	<section class="popular-course-area section-gap">
