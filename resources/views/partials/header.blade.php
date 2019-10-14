@@ -18,27 +18,27 @@
   <div class="container main-menu">
       <div class="row align-items-center justify-content-between d-flex">
         <div id="logo">
-          <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+          <a href="{{ url('/') }}"><img src="img/logo.png" alt="" title="" /></a>
         </div>
         <nav id="nav-menu-container">
           <ul class="nav-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="courses.html">Academics</a></li>
-            <li><a href="courses.html">Extra Activities</a></li>
+            <li><a href="{{ url('/') }}">Home</a></li>
+            <li><a href="{{ url('/About') }}">About</a></li>
+            <li><a href="{{ url('/Academics') }}">Academics</a></li>
+            <li><a href="{{ url('/Extra') }}">Extra Activities</a></li>
             <li class="menu-has-children"><a href="">Annual Events</a>
             <ul>
-                <li><a href="blog-home.html">Annual Event Calender <script>document.write(new Date().getFullYear());</script> </a></li>
+                <li><a href="{{ url('/Event/Annual')}}">Annual Event Calender <script>document.write(new Date().getFullYear());</script> </a></li>
                 <li><a href=""></a></li>
             </ul>
         </li>
-        <li><a href="contact.html">Achievements</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="{{ url('/Achievements') }}">Achievements</a></li>
+            <li><a href="{{ url('/Gallery') }}">Gallery</a></li>
             	
             					          					          		          
             
-            <li class="active"><a href="contact.html">Contact</a></li>
-            <li class="active"><a href="contact.html">Registations</a></li>
+            <li class="active"><a href="{{ url('/Contact') }}">Contact</a></li>
+            <li class="active"><a href="{{ url('/Registations') }}">Registations</a></li>
 
           </ul>
         </nav><!-- #nav-menu-container -->		    		
