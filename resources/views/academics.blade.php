@@ -46,7 +46,7 @@
 						</div>									
 					</div>
 					<div class="details">
-						<a href="course-details.html">
+						<a href="{{ url('/Academics/1') }}">
 							<h4>
 								Learn Designing
 							</h4>

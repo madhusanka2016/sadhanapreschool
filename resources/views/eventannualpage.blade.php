@@ -10,146 +10,108 @@
 				<div class="row d-flex align-items-center justify-content-center">
 					<div class="about-content col-lg-12">
 						<h1 class="text-white">
-							Annual Events <script>document.write(new Date().getFullYear());</script>			
+							Event Details			
 						</h1>	
-						<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="events.html"> Events</a></p>
+						<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="event-details.html"> Event Details</a></p>
 					</div>	
 				</div>
 			</div>
 		</section>
 		<!-- End banner Area -->	
 			
-		<!-- Start events-list Area -->
-		<section class="events-list-area section-gap event-page-lists">
+		<!-- Start event-details Area -->
+		<section class="event-details-area section-gap">
 			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-6 pb-30">
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e1.jpg" alt="">
+				<div class="row">
+					<div class="col-lg-8 event-details-left">
+						<div class="main-img">
+							<img class="img-fluid" src="img/event-details-img.jpg" alt="">
+						</div>
+						<div class="details-content">
+							<a href="#">
+								<h4>Designing Effective Slider images</h4>
+							</a>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.									
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolorema gna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.									
+							</p>
+						</div>
+						<div class="social-nav row no-gutters">
+							<div class="col-lg-6 col-md-6 ">
+								<ul class="focials">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+									<li><a href="#"><i class="fa fa-behance"></i></a></li>
+								</ul>
 							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
+							<div class="col-lg-6 col-md-6 navs">
+								<a href="#" class="nav-prev"><span class="lnr lnr-arrow-left"></span>Prev Event</a>
+								<a href="#" class="nav-next">Next Event<span class="lnr lnr-arrow-right"></span></a>									
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 pb-30">
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e2.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
+					<div class="col-lg-4 event-details-right">
+						<div class="single-event-details">
+							<h4>Details</h4>
+							<ul class="mt-10">
+								<li class="justify-content-between d-flex">
+									<span>Start date</span>
+									<span>15th April, 2018</span>
+								</li>
+								<li class="justify-content-between d-flex">
+									<span>End date</span>
+									<span>18th April, 2018</span>
+								</li>
+								<li class="justify-content-between d-flex">
+									<span>Ticket Price</span>
+									<span>Free of Cost</span>
+								</li>														
+							</ul>
 						</div>
+						<div class="single-event-details">
+							<h4>Venue</h4>
+							<ul class="mt-10">
+								<li class="justify-content-between d-flex">
+									<span>Place</span>
+									<span>Main Hallroom</span>
+								</li>
+								<li class="justify-content-between d-flex">
+									<span>Street</span>
+									<span>Bullevard Street</span>
+								</li>
+								<li class="justify-content-between d-flex">
+									<span>City</span>
+									<span>Santa Monica</span>
+								</li>														
+							</ul>
+						</div>
+						<div class="single-event-details">
+							<h4>Organiser</h4>
+							<ul class="mt-10">
+								<li class="justify-content-between d-flex">
+									<span>Company</span>
+									<span>Colorlib</span>
+								</li>
+								<li class="justify-content-between d-flex">
+									<span>Street</span>
+									<span>Bullevard Street</span>
+								</li>
+								<li class="justify-content-between d-flex">
+									<span>City</span>
+									<span>Santa Monica</span>
+								</li>														
+							</ul>
+						</div>														
 					</div>
-					<div class="col-lg-6 pb-30">
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e1.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 pb-30">
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e2.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 pb-30">
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e1.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6" pb-30>
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e2.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 pb-30">
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e1.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e2.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="#"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
-						</div>
-					</div>																		
-					<a href="#" class="text-uppercase primary-btn mx-auto mt-40">Load more courses</a>		
 				</div>
 			</div>	
 		</section>
-		<!-- End events-list Area -->
+		<!-- End event-details Area -->
+				
 			
-
 		<!-- Start cta-two Area -->
 		<section class="cta-two-area">
 			<div class="container">
@@ -163,7 +125,7 @@
 				</div>
 			</div>	
 		</section>
-		<!-- End cta-two Area -->				    			
+		<!-- End cta-two Area -->			    			
 
       
 

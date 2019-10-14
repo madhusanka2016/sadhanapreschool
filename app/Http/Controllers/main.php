@@ -15,10 +15,75 @@ class main extends Controller
     {
         return view('about');
     }
-    public function academics()// About Page
+    public function academics()// Academic Page
     {
         return view('academics');
     }
+    public function academicspages($id)// Academic Page
+    {
+        return view('academicspage');
+    }
+    public function extra()// Academic Page
+    {
+        return view('extra');
+    }
+
+    public function extrapages($id)// Academic Page
+    {
+        return view('extrapage');
+    }
+
+    public function achievements()// Academic Page
+    {
+        return view('achievements');
+    }
+    public function achievementspages($id)// Academic Page
+    {
+        return view('achievementspage');
+    }
+    public function gallery()// Academic Page
+    {
+        return view('gallery');
+    }
+    public function album($id)// Academic Page
+    {
+        return view('album');
+    }
+    public function registration()// Academic Page
+    {
+        return view('registration');
+    }
+    public function eventannual()// Academic Page
+    {
+        return view('eventannual');
+    }
+    public function eventannualpage($id)// Academic Page
+    {
+        return view('eventannualpage');
+    }
+    public function event($id)// Academic Page
+    {
+        return view('eventpage');
+    }
+    public function contact()// Academic Page
+    {
+        return view('contact');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public function services()// About Page
     {
         $social = DB::select("SELECT * FROM `db_social` WHERE `active`='1'");
@@ -28,45 +93,26 @@ class main extends Controller
         $heading = DB::select("SELECT * FROM `tb_content` WHERE Type ='portfolio_head'");
         return view('services', [ 'social' => $social , 'work' => $work , 'testim' => $testim, 'services' => $services , 'heading' => $heading]);
     }
-    public function portfolio()// About Page
-    {
-        $social = DB::select("SELECT * FROM `db_social` WHERE `active`='1'");
-                $albums = DB::select("SELECT * FROM `db_album` ");
-        $heading = DB::select("SELECT * FROM `tb_content` WHERE Type= 'service_head'");
-        return view('portfolio', [ 'social' => $social , 'albums' => $albums , 'heading' => $heading]);
-    }
-    public function contact()// About Page
-    {
-        $heading = DB::select("SELECT * FROM `tb_content` WHERE Type ='contact_head'");
-        $social = DB::select("SELECT * FROM `db_social` WHERE `active`='1'");
-                $Title="";
-        return view('contact', [ 'social' => $social, 'heading' => $heading, 'Title' => $Title ]);
-    }
-    public function album($id)// About Page
-    {
-        $social = DB::select("SELECT * FROM `db_social` WHERE `active`='1'");
-        $album = DB::select("SELECT * FROM `db_album` where id='" . $id . "'");
-        $photos = DB::select("SELECT * FROM `tb_photo` where album='" . $id . "'");
-                return view('album', [ 'social' => $social , 'album' => $album, 'photos' => $photos ]);
-    }
-    public function submit(Request $request)
-    {
-        //dd($request);
-            $name = $request->input('name');
-            $email = $request->input('email');
-            $Head = $request->input('Head');
-            $contactno = $request->input('contactno');
-            $country = $request->input('country');
-            $message = $request->input('message');
-            $action = 1;
-            $Title="Thank you for contact me. I will reply you soon !";
-            DB::table('tb_comment')->Insert(['name' => $name,'email' => $email,  'subject' => $Head , 'country' => $country, 'contact' => $contactno, 'message' => $message, 'action' => $action]);
+    
+
+    // public function submit(Request $request)
+    // {
+    //     //dd($request);
+    //         $name = $request->input('name');
+    //         $email = $request->input('email');
+    //         $Head = $request->input('Head');
+    //         $contactno = $request->input('contactno');
+    //         $country = $request->input('country');
+    //         $message = $request->input('message');
+    //         $action = 1;
+    //         $Title="Thank you for contact me. I will reply you soon !";
+    //         DB::table('tb_comment')->Insert(['name' => $name,'email' => $email,  'subject' => $Head , 'country' => $country, 'contact' => $contactno, 'message' => $message, 'action' => $action]);
 
 
-            $heading = DB::select("SELECT * FROM `tb_content` WHERE Type ='contact_head'");
-            $social = DB::select("SELECT * FROM `db_social` WHERE `active`='1'");
-                    return view('contact', [ 'social' => $social, 'heading' => $heading , 'Title' => $Title ]);
+    //         $heading = DB::select("SELECT * FROM `tb_content` WHERE Type ='contact_head'");
+    //         $social = DB::select("SELECT * FROM `db_social` WHERE `active`='1'");
+    //                 return view('contact', [ 'social' => $social, 'heading' => $heading , 'Title' => $Title ]);
 
 
-    }
+    // }
 }
