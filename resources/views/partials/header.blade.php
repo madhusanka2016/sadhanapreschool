@@ -9,8 +9,10 @@
                     </ul>			
                 </div>
                 <div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
-                    <a href="tel:+953 012 3654 896"><span class="lnr lnr-phone-handset"></span> <span class="text">+953 012 3654 896</span></a>
-                    <a href="mailto:support@colorlib.com"><span class="lnr lnr-envelope"></span> <span class="text">support@colorlib.com</span></a>			
+                    <a href="tel:+94773509323"><span class="lnr lnr-phone-handset"></span> <span class="text">+94773509323</span></a>
+                    <a href="tel:+94718251848"><span class="lnr lnr-phone-handset"></span> <span class="text">+94718251848</span></a>
+
+                    <a href="mailto:ajanthawijesinghe65@gmail.com "><span class="lnr lnr-envelope"></span> <span class="text">ajanthawijesinghe65@gmail.com</span></a>			
                 </div>
             </div>			  					
         </div>

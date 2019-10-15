@@ -30,10 +30,15 @@
 							<span class="lnr lnr-home"></span>
 						</div>
 						<div class="contact-details">
-							<h5>Binghamton, New York</h5>
+							<h5>Sadhana Pre School</h5>
 							<p>
-								4343 Hinkle Deegan Lake Road
+								Horagasmulla
+								<br>
+								Divulapitiya
+								<br>
+								SriLanka
 							</p>
+							
 						</div>
 					</div>
 					<div class="single-contact-address d-flex flex-row">
@@ -41,8 +46,19 @@
 							<span class="lnr lnr-phone-handset"></span>
 						</div>
 						<div class="contact-details">
-							<h5>00 (958) 9865 562</h5>
-							<p>Mon to Fri 9am to 6 pm</p>
+							<h5>+94773509323</h5>
+							<p>Mon to Fri 6.30am to 4.30 pm</p>
+						</div>
+						
+					</div>
+					<div class="single-contact-address d-flex flex-row">
+						<div class="icon">
+							<span class="lnr lnr-phone-handset"></span>
+						</div>
+					
+						<div class="contact-details">
+							<h5>+94718251848</h5>
+							<p>Mon to Fri 6.30am to 4.30 pm</p>
 						</div>
 					</div>
 					<div class="single-contact-address d-flex flex-row">
@@ -50,8 +66,8 @@
 							<span class="lnr lnr-envelope"></span>
 						</div>
 						<div class="contact-details">
-							<h5>support@colorlib.com</h5>
-							<p>Send us your query anytime!</p>
+							<h5>ajanthawijesinghe65@gmail.com</h5>
+							<p>Send us your suggetion anytime!</p>
 						</div>
 					</div>														
 				</div>
