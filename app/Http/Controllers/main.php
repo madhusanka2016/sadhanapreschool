@@ -43,7 +43,11 @@ class main extends Controller
     }
     public function gallery()// Academic Page
     {
-        return view('gallery');
+        $albums = DB::select("SELECT * FROM `album` ORDER BY a_date");
+
+
+        
+        return view('gallery', ['albums' => $albums]);
     }
     public function album($id)// Academic Page
     {

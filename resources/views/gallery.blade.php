@@ -12,7 +12,7 @@
 						<h1 class="text-white">
 							Gallery				
 						</h1>	
-						<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="events.html"> Events</a></p>
+						<p class="text-white link-nav"><a href="{{ url('/') }}">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="{{ url('/Gallery') }}"> Gallery</a></p>
 					</div>	
 				</div>
 			</div>
@@ -23,127 +23,31 @@
 		<section class="events-list-area section-gap event-page-lists">
 			<div class="container">
 				<div class="row align-items-center">
+					@if(sizeof($albums)>0)                                                              
+					@foreach($albums as $item)
 					<div class="col-lg-6 pb-30">
 						<div class="single-carusel row align-items-center">
 							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e1.jpg" alt="">
+								<img class="img-fluid" src="{{$item->a_thumb}}" alt="">
 							</div>
 							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
+								<p>{{$item->a_date}}</p>
+								<a href="Gallery/{{$item->a_link}}"><h4>{{$item->a_title}}
+								</h4></a>
 								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
+										{{$item->a_desc}}
 								</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 pb-30">
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e2.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 pb-30">
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e1.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 pb-30">
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e2.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 pb-30">
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e1.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6" pb-30>
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e2.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 pb-30">
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e1.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="event-details.html"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="single-carusel row align-items-center">
-							<div class="col-12 col-md-6 thumb">
-								<img class="img-fluid" src="img/e2.jpg" alt="">
-							</div>
-							<div class="detials col-12 col-md-6">
-								<p>25th February, 2018</p>
-								<a href="#"><h4>The Universe Through
-								A Child S Eyes</h4></a>
-								<p>
-									For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
-								</p>
-							</div>
-						</div>
-					</div>																		
-					<a href="#" class="text-uppercase primary-btn mx-auto mt-40">Load more courses</a>		
+					@endforeach
+					@else                                
+					@endif 
+					
+					
+					
+				
+						
 				</div>
 			</div>	
 		</section>
