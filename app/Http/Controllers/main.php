@@ -43,11 +43,14 @@ class main extends Controller
     }
     public function gallery()// Academic Page
     {
-        return view('gallery');
+        $albums = DB::select("SELECT * FROM `album` ORDER BY a_date DESC");
+        return view('gallery', ['albums' => $albums]);
     }
     public function album($id)// Academic Page
     {
-        return view('album');
+        
+        $album = DB::select("SELECT * FROM `album` WHERE a_link = '" . $id . "'");
+        return view('album', ['album' => $album]);
     }
     public function registration()// Academic Page
     {
