@@ -17,11 +17,17 @@ class main extends Controller
     }
     public function academics()// Academic Page
     {
-        return view('academics');
+        $academics = DB::select("SELECT * FROM `academics`");
+
+        return view('academics', ['academics' => $academics]);
     }
     public function academicspages($id)// Academic Page
     {
-        return view('academicspage');
+
+        $academic = DB::select("SELECT * FROM `academics` WHERE `aca_link` = '" . $id . "' ");
+        $academics = DB::select("SELECT * FROM `academics` LIMIT 4");
+
+        return view('academicspage', ['academics' => $academics,'academic' => $academic]);
     }
     public function extra()// Academic Page
     {
