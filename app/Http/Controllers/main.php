@@ -31,12 +31,16 @@ class main extends Controller
     }
     public function extra()// Academic Page
     {
-        return view('extra');
+        $extras = DB::select("SELECT * FROM `extra`");
+
+        return view('extra', ['extras' => $extras]);
     }
 
     public function extrapages($id)// Academic Page
     {
-        return view('extrapage');
+        $extra = DB::select("SELECT * FROM `extra` WHERE `ex_link` = '" . $id . "' ");
+        $extras = DB::select("SELECT * FROM `extra` LIMIT 4");
+        return view('extrapage', ['extras' => $extras,'extra' => $extra]);
     }
 
     public function achievements()// Academic Page
