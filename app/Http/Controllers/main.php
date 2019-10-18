@@ -45,11 +45,15 @@ class main extends Controller
 
     public function achievements()// Academic Page
     {
-        return view('achievements');
+        $achievements = DB::select("SELECT * FROM `achievements` ORDER BY ach_date DESC");
+        return view('achievements', ['achievements' => $achievements]);
     }
     public function achievementspages($id)// Academic Page
     {
-        return view('achievementspage');
+        $achievement = DB::select("SELECT * FROM `achievements` WHERE `ach_link` = '" . $id . "' ");
+        $achievements = DB::select("SELECT * FROM `achievements` ORDER BY ach_date DESC LIMIT 4");
+
+        return view('achievementspage', ['achievements' => $achievements,'achievement' => $achievement]);
     }
     public function gallery()// Academic Page
     {
