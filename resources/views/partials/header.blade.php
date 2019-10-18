@@ -28,10 +28,11 @@
             <li><a href="{{ url('/About') }}">About</a></li>
             <li><a href="{{ url('/Academics') }}">Academics</a></li>
             <li><a href="{{ url('/Extra') }}">Extra Activities</a></li>
-            <li class="menu-has-children"><a href="">Annual Events</a>
+            <li class="menu-has-children"><a href="">Events</a>
             <ul>
-                <li><a href="{{ url('/Event/Annual')}}">Annual Event Calender <script>document.write(new Date().getFullYear());</script> </a></li>
-                <li><a href=""></a></li>
+                <li><a href="{{ url('/Event')}}">Annual Events</a></li>
+                <li><a href="{{ url('/Event/Annual')}}">Event Calender <script>document.write(new Date().getFullYear());</script> </a></li>
+
             </ul>
         </li>
         <li><a href="{{ url('/Achievements') }}">Achievements</a></li>

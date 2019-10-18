@@ -78,9 +78,17 @@ class main extends Controller
     {
         return view('eventannualpage');
     }
-    public function event($id)// Academic Page
+    public function eventpage($id)// Academic Page
     {
-        return view('eventpage');
+        $event = DB::select("SELECT * FROM `event` WHERE `ev_link` = '" . $id . "' ");
+        $events = DB::select("SELECT * FROM `event` LIMIT 4");
+        return view('eventpage', ['events' => $events,'event' => $event]);
+    }
+    public function event()// Academic Page
+    {
+        $events = DB::select("SELECT * FROM `event`");
+
+        return view('event', ['events' => $events]);
     }
     public function contact()// Academic Page
     {

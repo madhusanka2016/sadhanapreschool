@@ -23,7 +23,9 @@ Route::get('/Gallery/{id}', 'main@album')->name('album');
 Route::get('/Registations', 'main@registration')->name('registration');
 Route::get('/Event/Annual', 'main@eventannual')->name('eventannual'); //About Routes
 Route::get('/Event/Annual/{id}', 'main@eventannualpage')->name('eventannualpage'); //About Routes
-Route::get('/Event/{id}', 'main@event')->name('event'); //About Routes
+Route::get('/Event/{id}', 'main@eventpage')->name('event'); //About Routes
+Route::get('/Event', 'main@event')->name('event'); //About Routes
+
 Route::get('/Contact', 'main@contact')->name('contact'); //About Routes
 
 
