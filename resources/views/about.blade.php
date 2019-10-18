@@ -4,7 +4,7 @@
 @section('content')
 	  <!-- ***** Hero Area Start ***** -->
 	  <!-- start banner Area -->
-	  <section class="banner-area relative about-banner" id="home">	
+	  <section class="banner-area relative about-banner" style="background:url(https://res.cloudinary.com/drkrhzwec/image/upload/v1571307936/page_covers/academics.jpg)" id="home">	
 		<div class="overlay overlay-bg"></div>
 		<div class="container">				
 			<div class="row d-flex align-items-center justify-content-center">
@@ -12,7 +12,6 @@
 					<h1 class="text-white">
 						About Us				
 					</h1>	
-					<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> About Us</a></p>
 				</div>	
 			</div>
 		</div>
@@ -26,40 +25,38 @@
 				<div class="col-lg-4">
 					<div class="single-feature">
 						<div class="title">
-							<h4>Learn Online Courses</h4>
+							<h4>Develop Early Childhood</h4>
 						</div>
 						<div class="desc-wrap">
 							<p>
-								Usage of the Internet is becoming more common due to rapid advancement
-								of technology.
+								Develop Childhood
 							</p>
-							<a href="#">Join Now</a>									
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="single-feature">
 						<div class="title">
-							<h4>No.1 of universities</h4>
+							<h4>Best Environmnet for Kids</h4>
 						</div>
 						<div class="desc-wrap">
 							<p>
-								For many of us, our very first experience of learning about the celestial bodies begins when we saw our first.
+								Environmnet							
 							</p>
-							<a href="#">Join Now</a>									
+																
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="single-feature">
 						<div class="title">
-							<h4>Huge Library</h4>
+							<h4>Qualified Teachers</h4>
 						</div>
 						<div class="desc-wrap">
 							<p>
-								If you are a serious astronomy fanatic like a lot of us are, you can probably remember that one event.
+									Qualified Teachers
 							</p>
-							<a href="#">Join Now</a>									
+																
 						</div>
 					</div>
 				</div>												
@@ -73,47 +70,30 @@
 		<div class="container-fluid">
 			<div class="row align-items-center">
 				<div class="col-lg-6 no-padding info-area-left">
-					<img class="img-fluid" src="img/about-img.jpg" alt="">
+					<img class="img-fluid" src="https://res.cloudinary.com/drkrhzwec/image/upload/v1571392886/page_covers/about_cover.jpg" alt="">
 				</div>
 				<div class="col-lg-6 info-area-right">
 					<h1>Who we are</h1>
-					<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.</p>
+					<p>
+						Introduction Paragraph 1
+					</p>
 					<br>
 					<p>
-						inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
+						Introduction Paragraph 2
+
 					</p>
 				</div>
 			</div>
 		</div>	
 	</section>
-	<section class="info-area pb-120">
-			<div class="container-fluid">
-				<div class="row align-items-center">
-						<div class="col-lg-6 info-area-right">
-								<h1>Histoory in Breif</h1>
-								<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.</p>
-								<br>
-								<p>
-									inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
-								</p>
-							</div>
-					<div class="col-lg-6 no-padding info-area-left">
-						<img class="img-fluid" src="img/about-img.jpg" alt="">
-					</div>
-					
-				</div>
-			</div>	
-		</section>
-	<!-- End info Area -->	
-
-	<!-- Start course-mission Area -->
+<!-- Start course-mission Area -->
 	<section class="course-mission-area pb-120">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-70 col-lg-8">
 					<div class="title text-center">
-						<h1 class="mb-10">Goals to Achieve for the leadership</h1>
-						<p>Who are in extremely love with eco friendly system.</p>
+						<h1 class="mb-10">Goals to Achieve for the Objectives</h1>
+						<p>Develop the early Childhood is our atmost Objective</p>
 					</div>
 				</div>
 			</div>							
@@ -123,28 +103,28 @@
 					<!-- accordion 2 start-->
 					<dl class="accordion">
 						<dt>
-							<a href="">Success</a>
+							<a href="">Vision</a>
 						</dt>
 						<dd>
-							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam.
+							Vision Paraghraph 1
 						</dd>
 						<dt>
-							<a href="">Info</a>
+							<a href="">Mission</a>
 						</dt>
 						<dd>
-							Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. leo quam aliquet diam, congue laoreet elit metus eget diam.
+							Mission Paragrahp 1
 						</dd>
 						<dt>
-							<a href="">Danger</a>
+							<a href="">Objectives</a>
 						</dt>
 						<dd>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.
+							Objectives Paragraph 1
 						</dd>
 						<dt>
-							<a href="">Warning</a>
+							<a href="">Dedication</a>
 						</dt>
 						<dd>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.
+							Dedication Paragrahp 1
 						</dd>                                    
 					</dl>
 					<!-- accordion 2 end-->
@@ -157,6 +137,79 @@
 		</div>	
 	</section>
 	<!-- End course-mission Area -->
+
+	<section class="info-area pb-120">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+						<div class="col-lg-6 no-padding info-area-left">
+								<img class="img-fluid" src="https://res.cloudinary.com/drkrhzwec/image/upload/v1571392886/page_covers/about_cover.jpg" alt="">
+							</div>
+						<div class="col-lg-6 info-area-right">
+								<h1>Histoory in Breif</h1>
+								<p>
+									History Paragraph 1
+								</p>
+								<br>
+								<p>
+									History PParagraph 2
+								</p>
+							</div>
+					
+					
+				</div>
+			</div>	
+	</section>
+	<!-- End info Area -->	
+	<section class="course-mission-area pb-120">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content pb-70 col-lg-8">
+						<div class="title text-center">
+							<h1 class="mb-10">How We Differ From Others</h1>
+							<p>What are our Qualities</p>
+						</div>
+					</div>
+				</div>							
+				<div class="row">
+					<div class="col-md-6 accordion-left">
+	
+						<!-- accordion 2 start-->
+						<dl class="accordion">
+							<dt>
+								<a href="">Quality 1</a>
+							</dt>
+							<dd>
+									Quality  Paraghraph 1
+							</dd>
+							<dt>
+								<a href="">Quality 2</a>
+							</dt>
+							<dd>
+									Quality  Paraghraph 2
+							</dd>
+							<dt>
+								<a href="">Quality 3</a>
+							</dt>
+							<dd>
+									Quality  Paraghraph 3
+							</dd>
+							<dt>
+								<a href="">Quality 4</a>
+							</dt>
+							<dd>
+									Quality  Paraghraph 4
+							</dd>                                    
+						</dl>
+						<!-- accordion 2 end-->
+					</div>
+					<div style="background:url(../img/video-bg 2.jpg)" class="col-md-6 video-right justify-content-center align-items-center d-flex relative" >
+						<div class="overlay overlay-bg"></div>
+						<a class="play-btn" href="https://www.youtube.com/watch?v=KAl-UqB4ulE"><img class="img-fluid mx-auto" src="img/play.png" alt=""></a>
+					</div>
+				</div>
+			</div>	
+		</section>
+	
 			
 
 	<!-- Start search-course Area -->
