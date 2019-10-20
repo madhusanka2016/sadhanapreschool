@@ -70,13 +70,17 @@ class main extends Controller
     {
         return view('registration');
     }
-    public function eventannual()// Academic Page
+    public function eventannual()// Annual Event List Page
     {
-        return view('eventannual');
+        $calenderevents = DB::select("SELECT * FROM `calendar` where YEAR(cal_date) = YEAR(CURDATE()) ORDER BY cal_date ");
+        return view('eventannual',['calenderevents' => $calenderevents]);
     }
-    public function eventannualpage($id)// Academic Page
+    public function eventannualpage($id)// Annual Event Page
     {
-        return view('eventannualpage');
+        $event = DB::select("SELECT * FROM `calendar` WHERE `cal_link` = '" . $id . "' ");
+
+        $calenderevents = DB::select("SELECT * FROM `calendar` where cal_date >= CURDATE() ORDER BY cal_date ");
+        return view('eventannualpage' ,['calenderevents' => $calenderevents ,'event' => $event]);
     }
     public function eventpage($id)// Academic Page
     {
