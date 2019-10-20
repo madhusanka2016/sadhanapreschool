@@ -72,7 +72,8 @@ class main extends Controller
     }
     public function registration()// Academic Page
     {
-        return view('registration');
+        $academics = DB::select("SELECT * FROM `academics` LIMIT 4");
+        return view('registration', ['academics' => $academics]);
     }
     public function eventannual()// Annual Event List Page
     {
