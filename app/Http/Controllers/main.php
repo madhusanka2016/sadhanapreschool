@@ -9,7 +9,11 @@ class main extends Controller
 {
     public function home()// Home Page
     {
-       return view('index');
+        $academics = DB::select("SELECT * FROM `academics` LIMIT 12");
+        $calenderevents = DB::select("SELECT * FROM `calendar` where cal_date >= CURDATE() ORDER BY cal_date ");
+        $achievements = DB::select("SELECT * FROM `achievements` ORDER BY ach_date LIMIT 4");
+
+       return view('index', ['academics' => $academics,'calenderevents' => $calenderevents,'achievements' => $achievements]);
     }
     public function about()// About Page
     {
