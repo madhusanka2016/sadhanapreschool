@@ -264,7 +264,7 @@
 					<p>
 						There are vancies for trainee/ trained Teachers for the Sadhana Pre School
 					</p>
-					<a class="primary-btn wh" href="#">Apply Now</a>								
+					<a class="primary-btn wh" href="/Registations/Staff">Apply Now</a>								
 				</div>					
 			</div>
 		</div>	

@@ -75,6 +75,12 @@ class main extends Controller
         $academics = DB::select("SELECT * FROM `academics` LIMIT 4");
         return view('registration', ['academics' => $academics]);
     }
+
+    public function staff()// Staff Registartion Page
+    {
+        $academics = DB::select("SELECT * FROM `academics` LIMIT 4");
+        return view('staff', ['academics' => $academics]);
+    }
     public function eventannual()// Annual Event List Page
     {
         $calenderevents = DB::select("SELECT * FROM `calendar` where YEAR(cal_date) = YEAR(CURDATE()) ORDER BY cal_date ");
