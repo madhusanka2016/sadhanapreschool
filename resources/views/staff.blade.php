@@ -7,13 +7,13 @@
 			
 
 		<!-- start banner Area -->
-		<section class="banner-area relative about-banner" style="background:url(https://res.cloudinary.com/drkrhzwec/image/upload/v1571307936/page_covers/academics.jpg)" id="home">	
+		<section class="banner-area relative about-banner" style="background:url(https://res.cloudinary.com/drkrhzwec/image/upload/v1571562804/page_covers/73047935_2412243959064264_998858077056794624_n_zo6avh.jpg)" id="home">	
 			<div class="overlay overlay-bg"></div>
 			<div class="container">				
 				<div class="row d-flex align-items-center justify-content-center">
 					<div class="about-content col-lg-12">
 						<h1 class="text-white">
-							Registrations	
+							Staff Registrations	
 						</h1>	
 					</div>	
 				</div>
@@ -27,15 +27,15 @@
 				<div class="row">
 					<div class="col-lg-8 left-contents">
 						<div class="main-image">
-							<img class="img-fluid" src="https://res.cloudinary.com/drkrhzwec/image/upload/v1571307936/page_covers/academics.jpg" alt="">
+							<img class="img-fluid" src="https://res.cloudinary.com/drkrhzwec/image/upload/v1571562804/page_covers/73047935_2412243959064264_998858077056794624_n_zo6avh.jpg" alt="">
 						</div>
 						<div class="jq-tab-wrapper" id="horizontalTab">
 							<div class="jq-tab-menu">
 								<div class="jq-tab-title active" data-tab="1">Overview</div>
-								<div class="jq-tab-title" data-tab="2">Age Group and Classes</div>
+								<div class="jq-tab-title" data-tab="2">Qualification</div>
 								<div class="jq-tab-title" data-tab="3">Daily Routine</div>
-								<div class="jq-tab-title" data-tab="4">Special Instructions</div>
-								<div class="jq-tab-title" data-tab="5">Payments</div>
+								<div class="jq-tab-title" data-tab="4">Benfits</div>
+								<div class="jq-tab-title" data-tab="5">Salary</div>
 							</div>
 							<div class="jq-tab-content-wrapper">
 								<div class="jq-tab-content active" data-tab="1">
@@ -143,8 +143,7 @@
 					</div>
 					<div class="col-lg-4 right-contents">
 						
-						<a target="_blank" href="{{asset ('pdf/Application.pdf')}}" class="primary-btn text-uppercase">Download Application</a>
-						<a target="_blank" href="{{asset ('pdf/Instractions.pdf')}}" class="primary-btn text-uppercase">Download Instractions</a>
+						<a target="_blank" href="{{asset ('pdf/Staff.pdf')}}" class="primary-btn text-uppercase">Download Application</a>
 
 					</div>
 				</div>

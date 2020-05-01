@@ -21,6 +21,8 @@ Route::get('/Achievements/{id}', 'main@achievementspages')->name('achievementspa
 Route::get('/Gallery', 'main@gallery')->name('gallery');
 Route::get('/Gallery/{id}', 'main@album')->name('album');
 Route::get('/Registations', 'main@registration')->name('registration');
+Route::get('/Registations/Staff', 'main@staff')->name('staff');
+
 Route::get('/Event/Annual', 'main@eventannual')->name('eventannual'); //About Routes
 Route::get('/Event/Annual/{id}', 'main@eventannualpage')->name('eventannualpage'); //About Routes
 Route::get('/Event/{id}', 'main@eventpage')->name('event'); //About Routes

@@ -9,7 +9,11 @@ class main extends Controller
 {
     public function home()// Home Page
     {
-       return view('index');
+        $academics = DB::select("SELECT * FROM `academics` LIMIT 12");
+        $calenderevents = DB::select("SELECT * FROM `calendar` where cal_date >= CURDATE() ORDER BY cal_date ");
+        $achievements = DB::select("SELECT * FROM `achievements` ORDER BY ach_date LIMIT 4");
+
+       return view('index', ['academics' => $academics,'calenderevents' => $calenderevents,'achievements' => $achievements]);
     }
     public function about()// About Page
     {
@@ -68,15 +72,26 @@ class main extends Controller
     }
     public function registration()// Academic Page
     {
-        return view('registration');
+        $academics = DB::select("SELECT * FROM `academics` LIMIT 4");
+        return view('registration', ['academics' => $academics]);
     }
-    public function eventannual()// Academic Page
+
+    public function staff()// Staff Registartion Page
     {
-        return view('eventannual');
+        $academics = DB::select("SELECT * FROM `academics` LIMIT 4");
+        return view('staff', ['academics' => $academics]);
     }
-    public function eventannualpage($id)// Academic Page
+    public function eventannual()// Annual Event List Page
     {
-        return view('eventannualpage');
+        $calenderevents = DB::select("SELECT * FROM `calendar` where YEAR(cal_date) = YEAR(CURDATE()) ORDER BY cal_date ");
+        return view('eventannual',['calenderevents' => $calenderevents]);
+    }
+    public function eventannualpage($id)// Annual Event Page
+    {
+        $event = DB::select("SELECT * FROM `calendar` WHERE `cal_link` = '" . $id . "' ");
+
+        $calenderevents = DB::select("SELECT * FROM `calendar` where cal_date >= CURDATE() ORDER BY cal_date ");
+        return view('eventannualpage' ,['calenderevents' => $calenderevents ,'event' => $event]);
     }
     public function eventpage($id)// Academic Page
     {
